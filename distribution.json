@@ -922,14 +922,14 @@
                     }
                 },
                 {
-                    "id": "theimpossibleFile-0.4.4",
-                    "name": "theimpossibleFile-0.4.4",
+                    "id": "theimpossiblelibrary-0.4.4",
+                    "name": "theimpossiblelibrary-0.4.4",
                     "type": "File",
                     "artifact": {
                         "size": 9365752,
                         "MD5": "6636D1C507720AAD5DAFE480A07333E2",
-                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/theimpossibleFile-0.4.4.jar",
-                        "path": "mods/theimpossibleFile-0.4.4.jar"
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/theimpossiblelibrary-0.4.4.jar",
+                        "path": "mods/theimpossiblelibrary-0.4.4.jar"
                     }
                 },
                 {
