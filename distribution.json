@@ -1,954 +1,1048 @@
 {
-  "version": "1.0.0",
-  "servers": [
-    {
-      "id": "elk-rpg",
-      "name": "Ełk RPG",
-      "minecraftVersion": "1.20.1",
-      "address": "s120.mineserv.eu:12053",
-      "type": "Fabric",
-      "modules": [
-        {
-          "id": "appleskin-fabric-mc1.20.1-2.5.1",
-          "name": "appleskin-fabric-mc1.20.1-2.5.1",
-          "type": "File",
-          "artifact": {
-            "size": 1064362,
-            "MD5": "723370BE246A876144AE424CBBFD60F4",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/appleskin-fabric-mc1.20.1-2.5.1.jar"
-          }
-        },
-        {
-          "id": "architectury-9.2.14-fabric",
-          "name": "architectury-9.2.14-fabric",
-          "type": "File",
-          "artifact": {
-            "size": 585207,
-            "MD5": "2AE04E0DAD60A390031EE341E0B2AB45",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/architectury-9.2.14-fabric.jar"
-          }
-        },
-        {
-          "id": "areas-1.20.1-6.1",
-          "name": "areas-1.20.1-6.1",
-          "type": "File",
-          "artifact": {
-            "size": 73372,
-            "MD5": "4593DF86953A7C0565C775CDB0E73AC5",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/areas-1.20.1-6.1.jar"
-          }
-        },
-        {
-          "id": "artifacts-fabric-9.5.15",
-          "name": "artifacts-fabric-9.5.15",
-          "type": "File",
-          "artifact": {
-            "size": 960085,
-            "MD5": "FF9EFD157D285A6C798545C519129E39",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/artifacts-fabric-9.5.15.jar"
-          }
-        },
-        {
-          "id": "balm-fabric-1.20.1-7.3.37",
-          "name": "balm-fabric-1.20.1-7.3.37",
-          "type": "File",
-          "artifact": {
-            "size": 608287,
-            "MD5": "9CD4FA2B8D97555A910A6A14BB14A606",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/balm-fabric-1.20.1-7.3.37.jar"
-          }
-        },
-        {
-          "id": "bclib-3.0.14",
-          "name": "bclib-3.0.14",
-          "type": "File",
-          "artifact": {
-            "size": 2312835,
-            "MD5": "F8ACE3A498B889040DEA6FF1EA85D288",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/bclib-3.0.14.jar"
-          }
-        },
-        {
-          "id": "better-end-4.0.11",
-          "name": "better-end-4.0.11",
-          "type": "File",
-          "artifact": {
-            "size": 92544800,
-            "MD5": "25BE609CB7B9FC6E4E8782C6FDFEA35B",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/better-end-4.0.11.jar"
-          }
-        },
-        {
-          "id": "better-nether-9.0.10",
-          "name": "better-nether-9.0.10",
-          "type": "File",
-          "artifact": {
-            "size": 22981698,
-            "MD5": "DDC5A347DAF531668DA8EBE61BFC1C80",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/better-nether-9.0.10.jar"
-          }
-        },
-        {
-          "id": "bettercombat-fabric-1.9.0+1.20.1",
-          "name": "bettercombat-fabric-1.9.0+1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 907055,
-            "MD5": "1EF35A7B3452AD26EDA6469213CE6684",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/bettercombat-fabric-1.9.0+1.20.1.jar"
-          }
-        },
-        {
-          "id": "betterend-crashed-ships-1.0.0",
-          "name": "betterend-crashed-ships-1.0.0",
-          "type": "File",
-          "artifact": {
-            "size": 9658,
-            "MD5": "240B0637D164C963D5365BFB8710C30A",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/betterend-crashed-ships-1.0.0.jar"
-          }
-        },
-        {
-          "id": "bettermobcombat-fabric-1.20.1-1.3.0",
-          "name": "bettermobcombat-fabric-1.20.1-1.3.0",
-          "type": "File",
-          "artifact": {
-            "size": 249229,
-            "MD5": "BB07AF3512496FE0B7970A5F49F4444D",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/bettermobcombat-fabric-1.20.1-1.3.0.jar"
-          }
-        },
-        {
-          "id": "bocksextension-fabric-1.2.0",
-          "name": "BocksExtension-FABRIC-1.2.0",
-          "type": "File",
-          "artifact": {
-            "size": 672150,
-            "MD5": "704A8FEE3C3557660562DCF9CA50024B",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/BocksExtension-FABRIC-1.2.0.jar"
-          }
-        },
-        {
-          "id": "bookshelf-fabric-1.20.1-20.2.13",
-          "name": "Bookshelf-Fabric-1.20.1-20.2.13",
-          "type": "File",
-          "artifact": {
-            "size": 322180,
-            "MD5": "6AAE84A4B71657B5F06634230651B3F9",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/Bookshelf-Fabric-1.20.1-20.2.13.jar"
-          }
-        },
-        {
-          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.16",
-          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.16",
-          "type": "File",
-          "artifact": {
-            "size": 1426500,
-            "MD5": "92A6600D0F05C7E70D92D459B3B9EBA8",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/c2me-fabric-mc1.20.1-0.2.0+alpha.11.16.jar"
-          }
-        },
-        {
-          "id": "cardinal-components-api-5.2.3",
-          "name": "cardinal-components-api-5.2.3",
-          "type": "File",
-          "artifact": {
-            "size": 228709,
-            "MD5": "B902397D35FBBF6DF232F46FB483024A",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/cardinal-components-api-5.2.3.jar"
-          }
-        },
-        {
-          "id": "chatanimation-fabric-1.20.1-1.1.3",
-          "name": "chatanimation-fabric-1.20.1-1.1.3",
-          "type": "File",
-          "artifact": {
-            "size": 381362,
-            "MD5": "FF04A8301FFB8D2FE65A9B1898E27E06",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/chatanimation-fabric-1.20.1-1.1.3.jar"
-          }
-        },
-        {
-          "id": "chat_heads-0.14.2-fabric-1.20",
-          "name": "chat_heads-0.14.2-fabric-1.20",
-          "type": "File",
-          "artifact": {
-            "size": 80747,
-            "MD5": "571C0A5993D1693590E635ED2D4FBA8F",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/chat_heads-0.14.2-fabric-1.20.jar"
-          }
-        },
-        {
-          "id": "cloth-config-11.1.136-fabric",
-          "name": "cloth-config-11.1.136-fabric",
-          "type": "File",
-          "artifact": {
-            "size": 1172214,
-            "MD5": "45D8BADA7797AF61D1F5543313B1F9F0",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/cloth-config-11.1.136-fabric.jar"
-          }
-        },
-        {
-          "id": "collective-1.20.1-8.13",
-          "name": "collective-1.20.1-8.13",
-          "type": "File",
-          "artifact": {
-            "size": 665169,
-            "MD5": "ABE112AF460BF8BEFE26605A5E4C4248",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/collective-1.20.1-8.13.jar"
-          }
-        },
-        {
-          "id": "combatroll-fabric-1.3.3+1.20.1",
-          "name": "combatroll-fabric-1.3.3+1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 191873,
-            "MD5": "96F6261F2E2153F195785D6836813F1D",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/combatroll-fabric-1.3.3+1.20.1.jar"
-          }
-        },
-        {
-          "id": "create-food-1.20.1-1.1.12-fabric",
-          "name": "create-food-1.20.1-1.1.12-fabric",
-          "type": "File",
-          "artifact": {
-            "size": 7649338,
-            "MD5": "4C2B05EBA01A9683DFFE78EA9A687A7B",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/create-food-1.20.1-1.1.12-fabric.jar"
-          }
-        },
-        {
-          "id": "creeperoverhaul-3.0.2-fabric",
-          "name": "creeperoverhaul-3.0.2-fabric",
-          "type": "File",
-          "artifact": {
-            "size": 1451306,
-            "MD5": "0B13CBA2A00AAFB49298F38D2D3F2E32",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/creeperoverhaul-3.0.2-fabric.jar"
-          }
-        },
-        {
-          "id": "data-attributes-2.0.3+1.20.1-fabric",
-          "name": "data-attributes-2.0.3+1.20.1-fabric",
-          "type": "File",
-          "artifact": {
-            "size": 1145486,
-            "MD5": "9A2FF5C535F6C3AAF7CE476B623F7C92",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/data-attributes-2.0.3+1.20.1-fabric.jar"
-          }
-        },
-        {
-          "id": "data_anchor-fabric-1.20.1-1.0.0.20",
-          "name": "Data_Anchor-fabric-1.20.1-1.0.0.20",
-          "type": "File",
-          "artifact": {
-            "size": 116968,
-            "MD5": "10D22E2A4C889CABC36BC82E028117E7",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/Data_Anchor-fabric-1.20.1-1.0.0.20.jar"
-          }
-        },
-        {
-          "id": "decorative_blocks-fabric-1.20.1-4.1.3",
-          "name": "decorative_blocks-fabric-1.20.1-4.1.3",
-          "type": "File",
-          "artifact": {
-            "size": 546719,
-            "MD5": "39A67E78370299975D3A172B582AED24",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/decorative_blocks-fabric-1.20.1-4.1.3.jar"
-          }
-        },
-        {
-          "id": "easy_npc_bundle-6.4.1-fabric-1.20.1",
-          "name": "easy_npc_bundle-6.4.1-fabric-1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 2004595,
-            "MD5": "EC5B793B11C63866976D86F131236139",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/easy_npc_bundle-6.4.1-fabric-1.20.1.jar"
-          }
-        },
-        {
-          "id": "eating-animation-1.20+1.9.61",
-          "name": "eating-animation-1.20+1.9.61",
-          "type": "File",
-          "artifact": {
-            "size": 1218710,
-            "MD5": "090EEADCFF74CE255E97285F8AB56472",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/eating-animation-1.20+1.9.61.jar"
-          }
-        },
-        {
-          "id": "enchantmentdescriptions-fabric-1.20.1-17.1.20",
-          "name": "EnchantmentDescriptions-Fabric-1.20.1-17.1.20",
-          "type": "File",
-          "artifact": {
-            "size": 63572,
-            "MD5": "01AE0B3107BB38C8A5805C028226E0FB",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/EnchantmentDescriptions-Fabric-1.20.1-17.1.20.jar"
-          }
-        },
-        {
-          "id": "endermanoverhaul-fabric-1.20.1-1.0.4",
-          "name": "endermanoverhaul-fabric-1.20.1-1.0.4",
-          "type": "File",
-          "artifact": {
-            "size": 1194281,
-            "MD5": "AECDCF146C1678C91EFC14ECCF5BC0D6",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/endermanoverhaul-fabric-1.20.1-1.0.4.jar"
-          }
-        },
-        {
-          "id": "explorify-v1.6.4-f15-88.File",
-          "name": "Explorify v1.6.4 f15-88.File",
-          "type": "File",
-          "artifact": {
-            "size": 951495,
-            "MD5": "AEF04AB27F59E69257A7C5278E0EF758",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/Explorify v1.6.4 f15-88.File.jar"
-          }
-        },
-        {
-          "id": "fabric-api-0.92.6+1.20.1",
-          "name": "fabric-api-0.92.6+1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 2107873,
-            "MD5": "3483560775F416A4C759535B898165A5",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fabric-api-0.92.6+1.20.1.jar"
-          }
-        },
-        {
-          "id": "fabric-language-kotlin-1.13.8+kotlin.2.3.0",
-          "name": "fabric-language-kotlin-1.13.8+kotlin.2.3.0",
-          "type": "File",
-          "artifact": {
-            "size": 7618852,
-            "MD5": "964103287B72E606DE845420D1A8CC57",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar"
-          }
-        },
-        {
-          "id": "fallingleaves-1.15.6+1.20.1",
-          "name": "fallingleaves-1.15.6+1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 156773,
-            "MD5": "1D13A592B3C329E2BC10B658161E8429",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fallingleaves-1.15.6+1.20.1.jar"
-          }
-        },
-        {
-          "id": "fallingtrees-fabric-mc1.20-0.13.2-snapshot",
-          "name": "fallingtrees-fabric-mc1.20-0.13.2-SNAPSHOT",
-          "type": "File",
-          "artifact": {
-            "size": 4023370,
-            "MD5": "909C511B3AE55516ED16E6BEC1DC1A51",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fallingtrees-fabric-mc1.20-0.13.2-SNAPSHOT.jar"
-          }
-        },
-        {
-          "id": "farmersdelight-1.20.1-2.4.1+refabricated",
-          "name": "FarmersDelight-1.20.1-2.4.1+refabricated",
-          "type": "File",
-          "artifact": {
-            "size": 8056758,
-            "MD5": "F4F3C88E3A2C463D125C45C44980B1CA",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/FarmersDelight-1.20.1-2.4.1+refabricated.jar"
-          }
-        },
-        {
-          "id": "ferritecore-6.0.1-fabric",
-          "name": "ferritecore-6.0.1-fabric",
-          "type": "File",
-          "artifact": {
-            "size": 125197,
-            "MD5": "A19272E427F75FEA59127DE6610EA26B",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ferritecore-6.0.1-fabric.jar"
-          }
-        },
-        {
-          "id": "forgeconfigapiport-v8.0.3-1.20.1-fabric",
-          "name": "ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric",
-          "type": "File",
-          "artifact": {
-            "size": 396628,
-            "MD5": "17D4D761778F33C006551CF9ECC78798",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar"
-          }
-        },
-        {
-          "id": "ftb-File-fabric-2001.2.12",
-          "name": "ftb-File-fabric-2001.2.12",
-          "type": "File",
-          "artifact": {
-            "size": 769888,
-            "MD5": "DD7CCDBD70AFB3B7960BB5383D09CB3E",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ftb-File-fabric-2001.2.12.jar"
-          }
-        },
-        {
-          "id": "ftb-quests-fabric-2001.4.17",
-          "name": "ftb-quests-fabric-2001.4.17",
-          "type": "File",
-          "artifact": {
-            "size": 1235809,
-            "MD5": "369F686659696882C50BB5860644A51D",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ftb-quests-fabric-2001.4.17.jar"
-          }
-        },
-        {
-          "id": "ftb-teams-fabric-2001.3.1",
-          "name": "ftb-teams-fabric-2001.3.1",
-          "type": "File",
-          "artifact": {
-            "size": 244872,
-            "MD5": "0B314B0709345CCEFC2A1E9EA62B1ACB",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ftb-teams-fabric-2001.3.1.jar"
-          }
-        },
-        {
-          "id": "geckolib-fabric-1.20.1-4.8.2",
-          "name": "geckolib-fabric-1.20.1-4.8.2",
-          "type": "File",
-          "artifact": {
-            "size": 1069282,
-            "MD5": "09B57B83CE1A09C3576031D7E8BD52C9",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/geckolib-fabric-1.20.1-4.8.2.jar"
-          }
-        },
-        {
-          "id": "guardvillagers-2.0.9-1.20.1",
-          "name": "guardvillagers-2.0.9-1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 298755,
-            "MD5": "A25DCAAE4AE2BA446327C51E87104A22",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/guardvillagers-2.0.9-1.20.1.jar"
-          }
-        },
-        {
-          "id": "hitfeedback-1.20.1-1.1.8-fabric",
-          "name": "HitFeedback-1.20.1-1.1.8-fabric",
-          "type": "File",
-          "artifact": {
-            "size": 842397,
-            "MD5": "913F6EBCAFC97511B3788313F12041A7",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/HitFeedback-1.20.1-1.1.8-fabric.jar"
-          }
-        },
-        {
-          "id": "indium-1.0.36+mc1.20.1",
-          "name": "indium-1.0.36+mc1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 105382,
-            "MD5": "21CEFDAA742E1F31DED4F85F55A0F41C",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/indium-1.0.36+mc1.20.1.jar"
-          }
-        },
-        {
-          "id": "inventoryprofilesnext-fabric-1.20-1.10.19",
-          "name": "InventoryProfilesNext-fabric-1.20-1.10.19",
-          "type": "File",
-          "artifact": {
-            "size": 1454646,
-            "MD5": "9ED6F62ED9B7C6CFE761DD2A64A84C2C",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/InventoryProfilesNext-fabric-1.20-1.10.19.jar"
-          }
-        },
-        {
-          "id": "iris-1.7.6+mc1.20.1",
-          "name": "iris-1.7.6+mc1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 2726899,
-            "MD5": "45577ADB5AB16505572C6EA4B1006E58",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/iris-1.7.6+mc1.20.1.jar"
-          }
-        },
-        {
-          "id": "jamlib-fabric-1.3.5+1.20.1",
-          "name": "jamlib-fabric-1.3.5+1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 240386,
-            "MD5": "7F739587A3E3C3AF698F517A78EED889",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/jamlib-fabric-1.3.5+1.20.1.jar"
-          }
-        },
-        {
-          "id": "jei-1.20.1-fabric-15.20.0.128",
-          "name": "jei-1.20.1-fabric-15.20.0.128",
-          "type": "File",
-          "artifact": {
-            "size": 1422364,
-            "MD5": "5982DAE5934F4AE914512E79CB2305C0",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/jei-1.20.1-fabric-15.20.0.128.jar"
-          }
-        },
-        {
-          "id": "kiwi-1.20.1-fabric-11.8.29",
-          "name": "Kiwi-1.20.1-Fabric-11.8.29",
-          "type": "File",
-          "artifact": {
-            "size": 1500158,
-            "MD5": "1B73E55F96550FEAC0B4799FCEFF8ACA",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/Kiwi-1.20.1-Fabric-11.8.29.jar"
-          }
-        },
-        {
-          "id": "krypton-0.2.3",
-          "name": "krypton-0.2.3",
-          "type": "File",
-          "artifact": {
-            "size": 185895,
-            "MD5": "3BF353C1AB576B57C003109C079E2EC8",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/krypton-0.2.3.jar"
-          }
-        },
-        {
-          "id": "lambdynamiclights-4.4.0+1.20.1",
-          "name": "lambdynamiclights-4.4.0+1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 1114373,
-            "MD5": "9EBCE39AA2ECDB9D32FCE5D69674A9B7",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/lambdynamiclights-4.4.0+1.20.1.jar"
-          }
-        },
-        {
-          "id": "lan-properties_fabric-1.0.0+1.20-1.20.2",
-          "name": "lan-properties_fabric-1.0.0+1.20-1.20.2",
-          "type": "File",
-          "artifact": {
-            "size": 758327,
-            "MD5": "9D40A833A3AE71848F9BCDED01556F79",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/lan-properties_fabric-1.0.0+1.20-1.20.2.jar"
-          }
-        },
-        {
-          "id": "letsdo-vinery-fabric-1.4.41",
-          "name": "letsdo-vinery-fabric-1.4.41",
-          "type": "File",
-          "artifact": {
-            "size": 3043160,
-            "MD5": "4A77E8FAF90C18C95A82D5B3A2D41CF8",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/letsdo-vinery-fabric-1.4.41.jar"
-          }
-        },
-        {
-          "id": "libipn-fabric-1.20-4.0.2",
-          "name": "libIPN-fabric-1.20-4.0.2",
-          "type": "File",
-          "artifact": {
-            "size": 702814,
-            "MD5": "8E2CC58F5A9149549F544D4A27224646",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/libIPN-fabric-1.20-4.0.2.jar"
-          }
-        },
-        {
-          "id": "litematica-fabric-1.20.1-0.15.4",
-          "name": "litematica-fabric-1.20.1-0.15.4",
-          "type": "File",
-          "artifact": {
-            "size": 923876,
-            "MD5": "4F716692227E2E5290AA862984104316",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/litematica-fabric-1.20.1-0.15.4.jar"
-          }
-        },
-        {
-          "id": "lithium-fabric-mc1.20.1-0.11.4",
-          "name": "lithium-fabric-mc1.20.1-0.11.4",
-          "type": "File",
-          "artifact": {
-            "size": 691483,
-            "MD5": "01FBA3B3678FADC34D4D2878031762CD",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/lithium-fabric-mc1.20.1-0.11.4.jar"
-          }
-        },
-        {
-          "id": "make_bubbles_pop-0.3.0-fabric-mc1.19.4-1.21",
-          "name": "make_bubbles_pop-0.3.0-fabric-mc1.19.4-1.21",
-          "type": "File",
-          "artifact": {
-            "size": 27579,
-            "MD5": "DFE43062BA0BA42F7E44A5AE83C0C6F8",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/make_bubbles_pop-0.3.0-fabric-mc1.19.4-1.21.jar"
-          }
-        },
-        {
-          "id": "malilib-fabric-1.20.1-0.16.3",
-          "name": "malilib-fabric-1.20.1-0.16.3",
-          "type": "File",
-          "artifact": {
-            "size": 545403,
-            "MD5": "007A02B4CBCA762018D2A56237D36631",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/malilib-fabric-1.20.1-0.16.3.jar"
-          }
-        },
-        {
-          "id": "mobplayeranimator-fabric-1.20.1-1.3.3",
-          "name": "mobplayeranimator-fabric-1.20.1-1.3.3",
-          "type": "File",
-          "artifact": {
-            "size": 218331,
-            "MD5": "90F843F261F2B9F59F8FB0ED69243F55",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/mobplayeranimator-fabric-1.20.1-1.3.3.jar"
-          }
-        },
-        {
-          "id": "moonlight-1.20-2.16.16-fabric",
-          "name": "moonlight-1.20-2.16.16-fabric",
-          "type": "File",
-          "artifact": {
-            "size": 1310017,
-            "MD5": "45E1E8595AEABB6E1E6DC0B78724B4D3",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/moonlight-1.20-2.16.16-fabric.jar"
-          }
-        },
-        {
-          "id": "mousetweaks-fabric-mc1.20-2.26",
-          "name": "MouseTweaks-fabric-mc1.20-2.26",
-          "type": "File",
-          "artifact": {
-            "size": 77943,
-            "MD5": "3138C776D370C90603938EB54D17469A",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/MouseTweaks-fabric-mc1.20-2.26.jar"
-          }
-        },
-        {
-          "id": "mru-1.0.4+1.20.1+fabric",
-          "name": "MRU-1.0.4+1.20.1+fabric",
-          "type": "File",
-          "artifact": {
-            "size": 104277,
-            "MD5": "D79BFCBC7D9DC74C632A36C120F11182",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/MRU-1.0.4+1.20.1+fabric.jar"
-          }
-        },
-        {
-          "id": "musictriggers-7.0.4",
-          "name": "musictriggers-7.0.4",
-          "type": "File",
-          "artifact": {
-            "size": 31624245,
-            "MD5": "1448B62E52632889D369A6C8CB8F780F",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/musictriggers-7.0.4.jar"
-          }
-        },
-        {
-          "id": "naturalist-5.0pre3+fabric-1.20.1",
-          "name": "naturalist-5.0pre3+fabric-1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 4770347,
-            "MD5": "768AD3E222F1A71AD320E98D854F4E5E",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/naturalist-5.0pre3+fabric-1.20.1.jar"
-          }
-        },
-        {
-          "id": "owo-lib-0.11.2+1.20",
-          "name": "owo-lib-0.11.2+1.20",
-          "type": "File",
-          "artifact": {
-            "size": 905421,
-            "MD5": "9150F588F732AE38C0320A17FA340626",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/owo-lib-0.11.2+1.20.jar"
-          }
-        },
-        {
-          "id": "pandalib-fabric-mc1.20-0.5.2-snapshot",
-          "name": "pandalib-fabric-mc1.20-0.5.2-SNAPSHOT",
-          "type": "File",
-          "artifact": {
-            "size": 859440,
-            "MD5": "60F968BBF8158E32140180F96E80AA33",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/pandalib-fabric-mc1.20-0.5.2-SNAPSHOT.jar"
-          }
-        },
-        {
-          "id": "particle-snow-1.20.1-1.2.0",
-          "name": "particle-snow-1.20.1-1.2.0",
-          "type": "File",
-          "artifact": {
-            "size": 1164177,
-            "MD5": "68D10C46F24F4398B45CF0A95CCFF37D",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/particle-snow-1.20.1-1.2.0.jar"
-          }
-        },
-        {
-          "id": "physics-File-3.0.14-mc-1.20.1-fabric",
-          "name": "physics-File-3.0.14-mc-1.20.1-fabric",
-          "type": "File",
-          "artifact": {
-            "size": 139213994,
-            "MD5": "561B3F4AA4706A73F13C20A25D6CA5E1",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/physics-File-3.0.14-mc-1.20.1-fabric.jar"
-          }
-        },
-        {
-          "id": "player-animation-lib-fabric-1.0.2-rc1+1.20",
-          "name": "player-animation-lib-fabric-1.0.2-rc1+1.20",
-          "type": "File",
-          "artifact": {
-            "size": 181008,
-            "MD5": "03DFB09AABE5C2C8167568CD5C32666B",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/player-animation-lib-fabric-1.0.2-rc1+1.20.jar"
-          }
-        },
-        {
-          "id": "playerex-directors-cut-4.0.5+1.20.1",
-          "name": "playerex-directors-cut-4.0.5+1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 1476337,
-            "MD5": "B62120D95E7F1CCF6B536C4B0284CB02",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/playerex-directors-cut-4.0.5+1.20.1.jar"
-          }
-        },
-        {
-          "id": "ranged_weapon_api-1.1.4+1.20.1",
-          "name": "ranged_weapon_api-1.1.4+1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 114936,
-            "MD5": "3A7797F55299D2DE2AA7CE9698264779",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ranged_weapon_api-1.1.4+1.20.1.jar"
-          }
-        },
-        {
-          "id": "resourcefulconfig-fabric-1.20.1-2.1.3",
-          "name": "resourcefulconfig-fabric-1.20.1-2.1.3",
-          "type": "File",
-          "artifact": {
-            "size": 135078,
-            "MD5": "720878464DC76B75681072F025EAE1AA",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/resourcefulconfig-fabric-1.20.1-2.1.3.jar"
-          }
-        },
-        {
-          "id": "resourcefullib-fabric-1.20.1-2.1.29",
-          "name": "resourcefullib-fabric-1.20.1-2.1.29",
-          "type": "File",
-          "artifact": {
-            "size": 431646,
-            "MD5": "9D4E1E80304EDC8A672D0173C46C7514",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/resourcefullib-fabric-1.20.1-2.1.29.jar"
-          }
-        },
-        {
-          "id": "rightclickharvest-fabric-4.6.0+1.20.1",
-          "name": "rightclickharvest-fabric-4.6.0+1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 287385,
-            "MD5": "27FEB7EE8BAFAF7599036CB92F6A6B80",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/rightclickharvest-fabric-4.6.0+1.20.1.jar"
-          }
-        },
-        {
-          "id": "simplyswords-fabric-1.56.0-1.20.1",
-          "name": "simplyswords-fabric-1.56.0-1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 15366470,
-            "MD5": "307F190B49947ACE559334609EB66634",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/simplyswords-fabric-1.56.0-1.20.1.jar"
-          }
-        },
-        {
-          "id": "skinlayers3d-fabric-1.10.1-mc1.20.1",
-          "name": "skinlayers3d-fabric-1.10.1-mc1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 1966174,
-            "MD5": "B354C5CBD6AEFDFCD95EB13E2FA472FC",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/skinlayers3d-fabric-1.10.1-mc1.20.1.jar"
-          }
-        },
-        {
-          "id": "smarterfarmers-1.20-2.1.2-fabric",
-          "name": "smarterfarmers-1.20-2.1.2-fabric",
-          "type": "File",
-          "artifact": {
-            "size": 218266,
-            "MD5": "99CBF5BC6E81BF12589CE32FDF83A0E9",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/smarterfarmers-1.20-2.1.2-fabric.jar"
-          }
-        },
-        {
-          "id": "snow-pig-3.0.1",
-          "name": "snow-pig-3.0.1",
-          "type": "File",
-          "artifact": {
-            "size": 6641872,
-            "MD5": "CF01359604C8C3ED5F43628A0A8C35CE",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/snow-pig-3.0.1.jar"
-          }
-        },
-        {
-          "id": "snowrealmagic-1.20.1-fabric-10.6.4",
-          "name": "SnowRealMagic-1.20.1-Fabric-10.6.4",
-          "type": "File",
-          "artifact": {
-            "size": 195724,
-            "MD5": "A211F4A5E9F44C3576CBFCB85A91FDFF",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/SnowRealMagic-1.20.1-Fabric-10.6.4.jar"
-          }
-        },
-        {
-          "id": "snowundertrees-2.5.4+1.20.1",
-          "name": "SnowUnderTrees-2.5.4+1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 2332826,
-            "MD5": "456CF2766ED8D86195D3F52BAEF6994D",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/SnowUnderTrees-2.5.4+1.20.1.jar"
-          }
-        },
-        {
-          "id": "sodium-fabric-0.5.13+mc1.20.1",
-          "name": "sodium-fabric-0.5.13+mc1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 971552,
-            "MD5": "76E0349865F91F315AAE087A6E88A84A",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/sodium-fabric-0.5.13+mc1.20.1.jar"
-          }
-        },
-        {
-          "id": "sound-physics-remastered-fabric-1.20.1-1.5.1",
-          "name": "sound-physics-remastered-fabric-1.20.1-1.5.1",
-          "type": "File",
-          "artifact": {
-            "size": 205569,
-            "MD5": "CBC6493BC0CBB4C8A813536181610686",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/sound-physics-remastered-fabric-1.20.1-1.5.1.jar"
-          }
-        },
-        {
-          "id": "starlight-1.1.2+fabric.dbc156f",
-          "name": "starlight-1.1.2+fabric.dbc156f",
-          "type": "File",
-          "artifact": {
-            "size": 127368,
-            "MD5": "A0B391BF55891502C2074BD078BB5899",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/starlight-1.1.2+fabric.dbc156f.jar"
-          }
-        },
-        {
-          "id": "theimpossibleFile-0.4.4",
-          "name": "theimpossibleFile-0.4.4",
-          "type": "File",
-          "artifact": {
-            "size": 9365752,
-            "MD5": "6636D1C507720AAD5DAFE480A07333E2",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/theimpossibleFile-0.4.4.jar"
-          }
-        },
-        {
-          "id": "travelersbackpack-fabric-1.20.1-9.1.43",
-          "name": "travelersbackpack-fabric-1.20.1-9.1.43",
-          "type": "File",
-          "artifact": {
-            "size": 1391366,
-            "MD5": "51EDA0EFB1639FD395D0A345C27358A2",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/travelersbackpack-fabric-1.20.1-9.1.43.jar"
-          }
-        },
-        {
-          "id": "trinkets-3.7.2",
-          "name": "trinkets-3.7.2",
-          "type": "File",
-          "artifact": {
-            "size": 238532,
-            "MD5": "C010CCC2015E5B1F3CB1994694ECC512",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/trinkets-3.7.2.jar"
-          }
-        },
-        {
-          "id": "twilightforest-fabric-1.20.1-1.4.7",
-          "name": "twilightforest-fabric-1.20.1-1.4.7",
-          "type": "File",
-          "artifact": {
-            "size": 27442159,
-            "MD5": "8BD7B96364937C35D99AB6D24DCBA56E",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/twilightforest-fabric-1.20.1-1.4.7.jar"
-          }
-        },
-        {
-          "id": "vcinteraction-fabric-1.20.1-1.0.6",
-          "name": "vcinteraction-fabric-1.20.1-1.0.6",
-          "type": "File",
-          "artifact": {
-            "size": 404186,
-            "MD5": "6649D954C43C2F72219129354DD26CC7",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/vcinteraction-fabric-1.20.1-1.0.6.jar"
-          }
-        },
-        {
-          "id": "visuality-0.7.1+1.20",
-          "name": "visuality-0.7.1+1.20",
-          "type": "File",
-          "artifact": {
-            "size": 67302,
-            "MD5": "14AAA65078FCFF3AF29FEF4E1D7D2161",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/visuality-0.7.1+1.20.jar"
-          }
-        },
-        {
-          "id": "voicechat-fabric-1.20.1-2.6.10",
-          "name": "voicechat-fabric-1.20.1-2.6.10",
-          "type": "File",
-          "artifact": {
-            "size": 5251496,
-            "MD5": "A2633AA3953861130B4658792164192C",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/voicechat-fabric-1.20.1-2.6.10.jar"
-          }
-        },
-        {
-          "id": "waystones-fabric-1.20.1-14.1.17",
-          "name": "waystones-fabric-1.20.1-14.1.17",
-          "type": "File",
-          "artifact": {
-            "size": 520003,
-            "MD5": "E106EC0F849FB5FEFB1FE5F9A232D450",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/waystones-fabric-1.20.1-14.1.17.jar"
-          }
-        },
-        {
-          "id": "weapons_expanded_1.20.1_1.5.3_fabric",
-          "name": "weapons_expanded_1.20.1_1.5.3_fabric",
-          "type": "File",
-          "artifact": {
-            "size": 229900,
-            "MD5": "F603A683BE4AA732B51F7B1C238942C6",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/weapons_expanded_1.20.1_1.5.3_fabric.jar"
-          }
-        },
-        {
-          "id": "winterly-0.9.3+1.20",
-          "name": "winterly-0.9.3+1.20",
-          "type": "File",
-          "artifact": {
-            "size": 210134,
-            "MD5": "04A2F11A911473DA7EA4450234A24473",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/winterly-0.9.3+1.20.jar"
-          }
-        },
-        {
-          "id": "zombie_variants-fabric-1.0.3-1.20.1",
-          "name": "zombie_variants-fabric-1.0.3-1.20.1",
-          "type": "File",
-          "artifact": {
-            "size": 397925,
-            "MD5": "C47CCF8DC862F4D7F87026C39A94B5B6",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/zombie_variants-fabric-1.0.3-1.20.1.jar"
-          }
+    "version": "1.0.0",
+    "servers": [
+        {
+            "id": "elk-rpg",
+            "name": "Ełk RPG",
+            "minecraftVersion": "1.20.1",
+            "address": "s120.mineserv.eu:12053",
+            "type": "Fabric",
+            "modules": [
+                {
+                    "id": "appleskin-fabric-mc1.20.1-2.5.1",
+                    "name": "appleskin-fabric-mc1.20.1-2.5.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1064362,
+                        "MD5": "723370BE246A876144AE424CBBFD60F4",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/appleskin-fabric-mc1.20.1-2.5.1.jar",
+                        "path": "mods/appleskin-fabric-mc1.20.1-2.5.1.jar"
+                    }
+                },
+                {
+                    "id": "architectury-9.2.14-fabric",
+                    "name": "architectury-9.2.14-fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 585207,
+                        "MD5": "2AE04E0DAD60A390031EE341E0B2AB45",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/architectury-9.2.14-fabric.jar",
+                        "path": "mods/architectury-9.2.14-fabric.jar"
+                    }
+                },
+                {
+                    "id": "areas-1.20.1-6.1",
+                    "name": "areas-1.20.1-6.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 73372,
+                        "MD5": "4593DF86953A7C0565C775CDB0E73AC5",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/areas-1.20.1-6.1.jar",
+                        "path": "mods/areas-1.20.1-6.1.jar"
+                    }
+                },
+                {
+                    "id": "artifacts-fabric-9.5.15",
+                    "name": "artifacts-fabric-9.5.15",
+                    "type": "File",
+                    "artifact": {
+                        "size": 960085,
+                        "MD5": "FF9EFD157D285A6C798545C519129E39",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/artifacts-fabric-9.5.15.jar",
+                        "path": "mods/artifacts-fabric-9.5.15.jar"
+                    }
+                },
+                {
+                    "id": "balm-fabric-1.20.1-7.3.37",
+                    "name": "balm-fabric-1.20.1-7.3.37",
+                    "type": "File",
+                    "artifact": {
+                        "size": 608287,
+                        "MD5": "9CD4FA2B8D97555A910A6A14BB14A606",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/balm-fabric-1.20.1-7.3.37.jar",
+                        "path": "mods/balm-fabric-1.20.1-7.3.37.jar"
+                    }
+                },
+                {
+                    "id": "bclib-3.0.14",
+                    "name": "bclib-3.0.14",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2312835,
+                        "MD5": "F8ACE3A498B889040DEA6FF1EA85D288",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/bclib-3.0.14.jar",
+                        "path": "mods/bclib-3.0.14.jar"
+                    }
+                },
+                {
+                    "id": "better-end-4.0.11",
+                    "name": "better-end-4.0.11",
+                    "type": "File",
+                    "artifact": {
+                        "size": 92544800,
+                        "MD5": "25BE609CB7B9FC6E4E8782C6FDFEA35B",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/better-end-4.0.11.jar",
+                        "path": "mods/better-end-4.0.11.jar"
+                    }
+                },
+                {
+                    "id": "better-nether-9.0.10",
+                    "name": "better-nether-9.0.10",
+                    "type": "File",
+                    "artifact": {
+                        "size": 22981698,
+                        "MD5": "DDC5A347DAF531668DA8EBE61BFC1C80",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/better-nether-9.0.10.jar",
+                        "path": "mods/better-nether-9.0.10.jar"
+                    }
+                },
+                {
+                    "id": "bettercombat-fabric-1.9.0+1.20.1",
+                    "name": "bettercombat-fabric-1.9.0+1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 907055,
+                        "MD5": "1EF35A7B3452AD26EDA6469213CE6684",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/bettercombat-fabric-1.9.0+1.20.1.jar",
+                        "path": "mods/bettercombat-fabric-1.9.0+1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "betterend-crashed-ships-1.0.0",
+                    "name": "betterend-crashed-ships-1.0.0",
+                    "type": "File",
+                    "artifact": {
+                        "size": 9658,
+                        "MD5": "240B0637D164C963D5365BFB8710C30A",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/betterend-crashed-ships-1.0.0.jar",
+                        "path": "mods/betterend-crashed-ships-1.0.0.jar"
+                    }
+                },
+                {
+                    "id": "bettermobcombat-fabric-1.20.1-1.3.0",
+                    "name": "bettermobcombat-fabric-1.20.1-1.3.0",
+                    "type": "File",
+                    "artifact": {
+                        "size": 249229,
+                        "MD5": "BB07AF3512496FE0B7970A5F49F4444D",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/bettermobcombat-fabric-1.20.1-1.3.0.jar",
+                        "path": "mods/bettermobcombat-fabric-1.20.1-1.3.0.jar"
+                    }
+                },
+                {
+                    "id": "bocksextension-fabric-1.2.0",
+                    "name": "BocksExtension-FABRIC-1.2.0",
+                    "type": "File",
+                    "artifact": {
+                        "size": 672150,
+                        "MD5": "704A8FEE3C3557660562DCF9CA50024B",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/BocksExtension-FABRIC-1.2.0.jar",
+                        "path": "mods/BocksExtension-FABRIC-1.2.0.jar"
+                    }
+                },
+                {
+                    "id": "bookshelf-fabric-1.20.1-20.2.13",
+                    "name": "Bookshelf-Fabric-1.20.1-20.2.13",
+                    "type": "File",
+                    "artifact": {
+                        "size": 322180,
+                        "MD5": "6AAE84A4B71657B5F06634230651B3F9",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/Bookshelf-Fabric-1.20.1-20.2.13.jar",
+                        "path": "mods/Bookshelf-Fabric-1.20.1-20.2.13.jar"
+                    }
+                },
+                {
+                    "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.16",
+                    "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.16",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1426500,
+                        "MD5": "92A6600D0F05C7E70D92D459B3B9EBA8",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/c2me-fabric-mc1.20.1-0.2.0+alpha.11.16.jar",
+                        "path": "mods/c2me-fabric-mc1.20.1-0.2.0+alpha.11.16.jar"
+                    }
+                },
+                {
+                    "id": "cardinal-components-api-5.2.3",
+                    "name": "cardinal-components-api-5.2.3",
+                    "type": "File",
+                    "artifact": {
+                        "size": 228709,
+                        "MD5": "B902397D35FBBF6DF232F46FB483024A",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/cardinal-components-api-5.2.3.jar",
+                        "path": "mods/cardinal-components-api-5.2.3.jar"
+                    }
+                },
+                {
+                    "id": "chatanimation-fabric-1.20.1-1.1.3",
+                    "name": "chatanimation-fabric-1.20.1-1.1.3",
+                    "type": "File",
+                    "artifact": {
+                        "size": 381362,
+                        "MD5": "FF04A8301FFB8D2FE65A9B1898E27E06",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/chatanimation-fabric-1.20.1-1.1.3.jar",
+                        "path": "mods/chatanimation-fabric-1.20.1-1.1.3.jar"
+                    }
+                },
+                {
+                    "id": "chat_heads-0.14.2-fabric-1.20",
+                    "name": "chat_heads-0.14.2-fabric-1.20",
+                    "type": "File",
+                    "artifact": {
+                        "size": 80747,
+                        "MD5": "571C0A5993D1693590E635ED2D4FBA8F",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/chat_heads-0.14.2-fabric-1.20.jar",
+                        "path": "mods/chat_heads-0.14.2-fabric-1.20.jar"
+                    }
+                },
+                {
+                    "id": "cloth-config-11.1.136-fabric",
+                    "name": "cloth-config-11.1.136-fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1172214,
+                        "MD5": "45D8BADA7797AF61D1F5543313B1F9F0",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/cloth-config-11.1.136-fabric.jar",
+                        "path": "mods/cloth-config-11.1.136-fabric.jar"
+                    }
+                },
+                {
+                    "id": "collective-1.20.1-8.13",
+                    "name": "collective-1.20.1-8.13",
+                    "type": "File",
+                    "artifact": {
+                        "size": 665169,
+                        "MD5": "ABE112AF460BF8BEFE26605A5E4C4248",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/collective-1.20.1-8.13.jar",
+                        "path": "mods/collective-1.20.1-8.13.jar"
+                    }
+                },
+                {
+                    "id": "combatroll-fabric-1.3.3+1.20.1",
+                    "name": "combatroll-fabric-1.3.3+1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 191873,
+                        "MD5": "96F6261F2E2153F195785D6836813F1D",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/combatroll-fabric-1.3.3+1.20.1.jar",
+                        "path": "mods/combatroll-fabric-1.3.3+1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "create-food-1.20.1-1.1.12-fabric",
+                    "name": "create-food-1.20.1-1.1.12-fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 7649338,
+                        "MD5": "4C2B05EBA01A9683DFFE78EA9A687A7B",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/create-food-1.20.1-1.1.12-fabric.jar",
+                        "path": "mods/create-food-1.20.1-1.1.12-fabric.jar"
+                    }
+                },
+                {
+                    "id": "creeperoverhaul-3.0.2-fabric",
+                    "name": "creeperoverhaul-3.0.2-fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1451306,
+                        "MD5": "0B13CBA2A00AAFB49298F38D2D3F2E32",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/creeperoverhaul-3.0.2-fabric.jar",
+                        "path": "mods/creeperoverhaul-3.0.2-fabric.jar"
+                    }
+                },
+                {
+                    "id": "data-attributes-2.0.3+1.20.1-fabric",
+                    "name": "data-attributes-2.0.3+1.20.1-fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1145486,
+                        "MD5": "9A2FF5C535F6C3AAF7CE476B623F7C92",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/data-attributes-2.0.3+1.20.1-fabric.jar",
+                        "path": "mods/data-attributes-2.0.3+1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "data_anchor-fabric-1.20.1-1.0.0.20",
+                    "name": "Data_Anchor-fabric-1.20.1-1.0.0.20",
+                    "type": "File",
+                    "artifact": {
+                        "size": 116968,
+                        "MD5": "10D22E2A4C889CABC36BC82E028117E7",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/Data_Anchor-fabric-1.20.1-1.0.0.20.jar",
+                        "path": "mods/Data_Anchor-fabric-1.20.1-1.0.0.20.jar"
+                    }
+                },
+                {
+                    "id": "decorative_blocks-fabric-1.20.1-4.1.3",
+                    "name": "decorative_blocks-fabric-1.20.1-4.1.3",
+                    "type": "File",
+                    "artifact": {
+                        "size": 546719,
+                        "MD5": "39A67E78370299975D3A172B582AED24",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/decorative_blocks-fabric-1.20.1-4.1.3.jar",
+                        "path": "mods/decorative_blocks-fabric-1.20.1-4.1.3.jar"
+                    }
+                },
+                {
+                    "id": "easy_npc_bundle-6.4.1-fabric-1.20.1",
+                    "name": "easy_npc_bundle-6.4.1-fabric-1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2004595,
+                        "MD5": "EC5B793B11C63866976D86F131236139",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/easy_npc_bundle-6.4.1-fabric-1.20.1.jar",
+                        "path": "mods/easy_npc_bundle-6.4.1-fabric-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "eating-animation-1.20+1.9.61",
+                    "name": "eating-animation-1.20+1.9.61",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1218710,
+                        "MD5": "090EEADCFF74CE255E97285F8AB56472",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/eating-animation-1.20+1.9.61.jar",
+                        "path": "mods/eating-animation-1.20+1.9.61.jar"
+                    }
+                },
+                {
+                    "id": "enchantmentdescriptions-fabric-1.20.1-17.1.20",
+                    "name": "EnchantmentDescriptions-Fabric-1.20.1-17.1.20",
+                    "type": "File",
+                    "artifact": {
+                        "size": 63572,
+                        "MD5": "01AE0B3107BB38C8A5805C028226E0FB",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/EnchantmentDescriptions-Fabric-1.20.1-17.1.20.jar",
+                        "path": "mods/EnchantmentDescriptions-Fabric-1.20.1-17.1.20.jar"
+                    }
+                },
+                {
+                    "id": "endermanoverhaul-fabric-1.20.1-1.0.4",
+                    "name": "endermanoverhaul-fabric-1.20.1-1.0.4",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1194281,
+                        "MD5": "AECDCF146C1678C91EFC14ECCF5BC0D6",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/endermanoverhaul-fabric-1.20.1-1.0.4.jar",
+                        "path": "mods/endermanoverhaul-fabric-1.20.1-1.0.4.jar"
+                    }
+                },
+                {
+                    "id": "explorify-v1.6.4-f15-88.File",
+                    "name": "Explorify v1.6.4 f15-88.File",
+                    "type": "File",
+                    "artifact": {
+                        "size": 951495,
+                        "MD5": "AEF04AB27F59E69257A7C5278E0EF758",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/Explorify v1.6.4 f15-88.File.jar",
+                        "path": "mods/Explorify v1.6.4 f15-88.File.jar"
+                    }
+                },
+                {
+                    "id": "fabric-api-0.92.6+1.20.1",
+                    "name": "fabric-api-0.92.6+1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2107873,
+                        "MD5": "3483560775F416A4C759535B898165A5",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fabric-api-0.92.6+1.20.1.jar",
+                        "path": "mods/fabric-api-0.92.6+1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "fabric-language-kotlin-1.13.8+kotlin.2.3.0",
+                    "name": "fabric-language-kotlin-1.13.8+kotlin.2.3.0",
+                    "type": "File",
+                    "artifact": {
+                        "size": 7618852,
+                        "MD5": "964103287B72E606DE845420D1A8CC57",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar",
+                        "path": "mods/fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar"
+                    }
+                },
+                {
+                    "id": "fallingleaves-1.15.6+1.20.1",
+                    "name": "fallingleaves-1.15.6+1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 156773,
+                        "MD5": "1D13A592B3C329E2BC10B658161E8429",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fallingleaves-1.15.6+1.20.1.jar",
+                        "path": "mods/fallingleaves-1.15.6+1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "fallingtrees-fabric-mc1.20-0.13.2-snapshot",
+                    "name": "fallingtrees-fabric-mc1.20-0.13.2-SNAPSHOT",
+                    "type": "File",
+                    "artifact": {
+                        "size": 4023370,
+                        "MD5": "909C511B3AE55516ED16E6BEC1DC1A51",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fallingtrees-fabric-mc1.20-0.13.2-SNAPSHOT.jar",
+                        "path": "mods/fallingtrees-fabric-mc1.20-0.13.2-SNAPSHOT.jar"
+                    }
+                },
+                {
+                    "id": "farmersdelight-1.20.1-2.4.1+refabricated",
+                    "name": "FarmersDelight-1.20.1-2.4.1+refabricated",
+                    "type": "File",
+                    "artifact": {
+                        "size": 8056758,
+                        "MD5": "F4F3C88E3A2C463D125C45C44980B1CA",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/FarmersDelight-1.20.1-2.4.1+refabricated.jar",
+                        "path": "mods/FarmersDelight-1.20.1-2.4.1+refabricated.jar"
+                    }
+                },
+                {
+                    "id": "ferritecore-6.0.1-fabric",
+                    "name": "ferritecore-6.0.1-fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 125197,
+                        "MD5": "A19272E427F75FEA59127DE6610EA26B",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ferritecore-6.0.1-fabric.jar",
+                        "path": "mods/ferritecore-6.0.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "forgeconfigapiport-v8.0.3-1.20.1-fabric",
+                    "name": "ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 396628,
+                        "MD5": "17D4D761778F33C006551CF9ECC78798",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
+                        "path": "mods/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar"
+                    }
+                },
+                {
+                    "id": "ftb-File-fabric-2001.2.12",
+                    "name": "ftb-File-fabric-2001.2.12",
+                    "type": "File",
+                    "artifact": {
+                        "size": 769888,
+                        "MD5": "DD7CCDBD70AFB3B7960BB5383D09CB3E",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ftb-File-fabric-2001.2.12.jar",
+                        "path": "mods/ftb-File-fabric-2001.2.12.jar"
+                    }
+                },
+                {
+                    "id": "ftb-quests-fabric-2001.4.17",
+                    "name": "ftb-quests-fabric-2001.4.17",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1235809,
+                        "MD5": "369F686659696882C50BB5860644A51D",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ftb-quests-fabric-2001.4.17.jar",
+                        "path": "mods/ftb-quests-fabric-2001.4.17.jar"
+                    }
+                },
+                {
+                    "id": "ftb-teams-fabric-2001.3.1",
+                    "name": "ftb-teams-fabric-2001.3.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 244872,
+                        "MD5": "0B314B0709345CCEFC2A1E9EA62B1ACB",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ftb-teams-fabric-2001.3.1.jar",
+                        "path": "mods/ftb-teams-fabric-2001.3.1.jar"
+                    }
+                },
+                {
+                    "id": "geckolib-fabric-1.20.1-4.8.2",
+                    "name": "geckolib-fabric-1.20.1-4.8.2",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1069282,
+                        "MD5": "09B57B83CE1A09C3576031D7E8BD52C9",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/geckolib-fabric-1.20.1-4.8.2.jar",
+                        "path": "mods/geckolib-fabric-1.20.1-4.8.2.jar"
+                    }
+                },
+                {
+                    "id": "guardvillagers-2.0.9-1.20.1",
+                    "name": "guardvillagers-2.0.9-1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 298755,
+                        "MD5": "A25DCAAE4AE2BA446327C51E87104A22",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/guardvillagers-2.0.9-1.20.1.jar",
+                        "path": "mods/guardvillagers-2.0.9-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "hitfeedback-1.20.1-1.1.8-fabric",
+                    "name": "HitFeedback-1.20.1-1.1.8-fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 842397,
+                        "MD5": "913F6EBCAFC97511B3788313F12041A7",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/HitFeedback-1.20.1-1.1.8-fabric.jar",
+                        "path": "mods/HitFeedback-1.20.1-1.1.8-fabric.jar"
+                    }
+                },
+                {
+                    "id": "indium-1.0.36+mc1.20.1",
+                    "name": "indium-1.0.36+mc1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 105382,
+                        "MD5": "21CEFDAA742E1F31DED4F85F55A0F41C",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/indium-1.0.36+mc1.20.1.jar",
+                        "path": "mods/indium-1.0.36+mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "inventoryprofilesnext-fabric-1.20-1.10.19",
+                    "name": "InventoryProfilesNext-fabric-1.20-1.10.19",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1454646,
+                        "MD5": "9ED6F62ED9B7C6CFE761DD2A64A84C2C",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/InventoryProfilesNext-fabric-1.20-1.10.19.jar",
+                        "path": "mods/InventoryProfilesNext-fabric-1.20-1.10.19.jar"
+                    }
+                },
+                {
+                    "id": "iris-1.7.6+mc1.20.1",
+                    "name": "iris-1.7.6+mc1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2726899,
+                        "MD5": "45577ADB5AB16505572C6EA4B1006E58",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/iris-1.7.6+mc1.20.1.jar",
+                        "path": "mods/iris-1.7.6+mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "jamlib-fabric-1.3.5+1.20.1",
+                    "name": "jamlib-fabric-1.3.5+1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 240386,
+                        "MD5": "7F739587A3E3C3AF698F517A78EED889",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/jamlib-fabric-1.3.5+1.20.1.jar",
+                        "path": "mods/jamlib-fabric-1.3.5+1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "jei-1.20.1-fabric-15.20.0.128",
+                    "name": "jei-1.20.1-fabric-15.20.0.128",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1422364,
+                        "MD5": "5982DAE5934F4AE914512E79CB2305C0",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/jei-1.20.1-fabric-15.20.0.128.jar",
+                        "path": "mods/jei-1.20.1-fabric-15.20.0.128.jar"
+                    }
+                },
+                {
+                    "id": "kiwi-1.20.1-fabric-11.8.29",
+                    "name": "Kiwi-1.20.1-Fabric-11.8.29",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1500158,
+                        "MD5": "1B73E55F96550FEAC0B4799FCEFF8ACA",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/Kiwi-1.20.1-Fabric-11.8.29.jar",
+                        "path": "mods/Kiwi-1.20.1-Fabric-11.8.29.jar"
+                    }
+                },
+                {
+                    "id": "krypton-0.2.3",
+                    "name": "krypton-0.2.3",
+                    "type": "File",
+                    "artifact": {
+                        "size": 185895,
+                        "MD5": "3BF353C1AB576B57C003109C079E2EC8",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/krypton-0.2.3.jar",
+                        "path": "mods/krypton-0.2.3.jar"
+                    }
+                },
+                {
+                    "id": "lambdynamiclights-4.4.0+1.20.1",
+                    "name": "lambdynamiclights-4.4.0+1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1114373,
+                        "MD5": "9EBCE39AA2ECDB9D32FCE5D69674A9B7",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/lambdynamiclights-4.4.0+1.20.1.jar",
+                        "path": "mods/lambdynamiclights-4.4.0+1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "lan-properties_fabric-1.0.0+1.20-1.20.2",
+                    "name": "lan-properties_fabric-1.0.0+1.20-1.20.2",
+                    "type": "File",
+                    "artifact": {
+                        "size": 758327,
+                        "MD5": "9D40A833A3AE71848F9BCDED01556F79",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/lan-properties_fabric-1.0.0+1.20-1.20.2.jar",
+                        "path": "mods/lan-properties_fabric-1.0.0+1.20-1.20.2.jar"
+                    }
+                },
+                {
+                    "id": "letsdo-vinery-fabric-1.4.41",
+                    "name": "letsdo-vinery-fabric-1.4.41",
+                    "type": "File",
+                    "artifact": {
+                        "size": 3043160,
+                        "MD5": "4A77E8FAF90C18C95A82D5B3A2D41CF8",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/letsdo-vinery-fabric-1.4.41.jar",
+                        "path": "mods/letsdo-vinery-fabric-1.4.41.jar"
+                    }
+                },
+                {
+                    "id": "libipn-fabric-1.20-4.0.2",
+                    "name": "libIPN-fabric-1.20-4.0.2",
+                    "type": "File",
+                    "artifact": {
+                        "size": 702814,
+                        "MD5": "8E2CC58F5A9149549F544D4A27224646",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/libIPN-fabric-1.20-4.0.2.jar",
+                        "path": "mods/libIPN-fabric-1.20-4.0.2.jar"
+                    }
+                },
+                {
+                    "id": "litematica-fabric-1.20.1-0.15.4",
+                    "name": "litematica-fabric-1.20.1-0.15.4",
+                    "type": "File",
+                    "artifact": {
+                        "size": 923876,
+                        "MD5": "4F716692227E2E5290AA862984104316",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/litematica-fabric-1.20.1-0.15.4.jar",
+                        "path": "mods/litematica-fabric-1.20.1-0.15.4.jar"
+                    }
+                },
+                {
+                    "id": "lithium-fabric-mc1.20.1-0.11.4",
+                    "name": "lithium-fabric-mc1.20.1-0.11.4",
+                    "type": "File",
+                    "artifact": {
+                        "size": 691483,
+                        "MD5": "01FBA3B3678FADC34D4D2878031762CD",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/lithium-fabric-mc1.20.1-0.11.4.jar",
+                        "path": "mods/lithium-fabric-mc1.20.1-0.11.4.jar"
+                    }
+                },
+                {
+                    "id": "make_bubbles_pop-0.3.0-fabric-mc1.19.4-1.21",
+                    "name": "make_bubbles_pop-0.3.0-fabric-mc1.19.4-1.21",
+                    "type": "File",
+                    "artifact": {
+                        "size": 27579,
+                        "MD5": "DFE43062BA0BA42F7E44A5AE83C0C6F8",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/make_bubbles_pop-0.3.0-fabric-mc1.19.4-1.21.jar",
+                        "path": "mods/make_bubbles_pop-0.3.0-fabric-mc1.19.4-1.21.jar"
+                    }
+                },
+                {
+                    "id": "malilib-fabric-1.20.1-0.16.3",
+                    "name": "malilib-fabric-1.20.1-0.16.3",
+                    "type": "File",
+                    "artifact": {
+                        "size": 545403,
+                        "MD5": "007A02B4CBCA762018D2A56237D36631",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/malilib-fabric-1.20.1-0.16.3.jar",
+                        "path": "mods/malilib-fabric-1.20.1-0.16.3.jar"
+                    }
+                },
+                {
+                    "id": "mobplayeranimator-fabric-1.20.1-1.3.3",
+                    "name": "mobplayeranimator-fabric-1.20.1-1.3.3",
+                    "type": "File",
+                    "artifact": {
+                        "size": 218331,
+                        "MD5": "90F843F261F2B9F59F8FB0ED69243F55",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/mobplayeranimator-fabric-1.20.1-1.3.3.jar",
+                        "path": "mods/mobplayeranimator-fabric-1.20.1-1.3.3.jar"
+                    }
+                },
+                {
+                    "id": "moonlight-1.20-2.16.16-fabric",
+                    "name": "moonlight-1.20-2.16.16-fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1310017,
+                        "MD5": "45E1E8595AEABB6E1E6DC0B78724B4D3",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/moonlight-1.20-2.16.16-fabric.jar",
+                        "path": "mods/moonlight-1.20-2.16.16-fabric.jar"
+                    }
+                },
+                {
+                    "id": "mousetweaks-fabric-mc1.20-2.26",
+                    "name": "MouseTweaks-fabric-mc1.20-2.26",
+                    "type": "File",
+                    "artifact": {
+                        "size": 77943,
+                        "MD5": "3138C776D370C90603938EB54D17469A",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/MouseTweaks-fabric-mc1.20-2.26.jar",
+                        "path": "mods/MouseTweaks-fabric-mc1.20-2.26.jar"
+                    }
+                },
+                {
+                    "id": "mru-1.0.4+1.20.1+fabric",
+                    "name": "MRU-1.0.4+1.20.1+fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 104277,
+                        "MD5": "D79BFCBC7D9DC74C632A36C120F11182",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/MRU-1.0.4+1.20.1+fabric.jar",
+                        "path": "mods/MRU-1.0.4+1.20.1+fabric.jar"
+                    }
+                },
+                {
+                    "id": "musictriggers-7.0.4",
+                    "name": "musictriggers-7.0.4",
+                    "type": "File",
+                    "artifact": {
+                        "size": 31624245,
+                        "MD5": "1448B62E52632889D369A6C8CB8F780F",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/musictriggers-7.0.4.jar",
+                        "path": "mods/musictriggers-7.0.4.jar"
+                    }
+                },
+                {
+                    "id": "naturalist-5.0pre3+fabric-1.20.1",
+                    "name": "naturalist-5.0pre3+fabric-1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 4770347,
+                        "MD5": "768AD3E222F1A71AD320E98D854F4E5E",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/naturalist-5.0pre3+fabric-1.20.1.jar",
+                        "path": "mods/naturalist-5.0pre3+fabric-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "owo-lib-0.11.2+1.20",
+                    "name": "owo-lib-0.11.2+1.20",
+                    "type": "File",
+                    "artifact": {
+                        "size": 905421,
+                        "MD5": "9150F588F732AE38C0320A17FA340626",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/owo-lib-0.11.2+1.20.jar",
+                        "path": "mods/owo-lib-0.11.2+1.20.jar"
+                    }
+                },
+                {
+                    "id": "pandalib-fabric-mc1.20-0.5.2-snapshot",
+                    "name": "pandalib-fabric-mc1.20-0.5.2-SNAPSHOT",
+                    "type": "File",
+                    "artifact": {
+                        "size": 859440,
+                        "MD5": "60F968BBF8158E32140180F96E80AA33",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/pandalib-fabric-mc1.20-0.5.2-SNAPSHOT.jar",
+                        "path": "mods/pandalib-fabric-mc1.20-0.5.2-SNAPSHOT.jar"
+                    }
+                },
+                {
+                    "id": "particle-snow-1.20.1-1.2.0",
+                    "name": "particle-snow-1.20.1-1.2.0",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1164177,
+                        "MD5": "68D10C46F24F4398B45CF0A95CCFF37D",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/particle-snow-1.20.1-1.2.0.jar",
+                        "path": "mods/particle-snow-1.20.1-1.2.0.jar"
+                    }
+                },
+                {
+                    "id": "physics-File-3.0.14-mc-1.20.1-fabric",
+                    "name": "physics-File-3.0.14-mc-1.20.1-fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 139213994,
+                        "MD5": "561B3F4AA4706A73F13C20A25D6CA5E1",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/physics-File-3.0.14-mc-1.20.1-fabric.jar",
+                        "path": "mods/physics-File-3.0.14-mc-1.20.1-fabric.jar"
+                    }
+                },
+                {
+                    "id": "player-animation-lib-fabric-1.0.2-rc1+1.20",
+                    "name": "player-animation-lib-fabric-1.0.2-rc1+1.20",
+                    "type": "File",
+                    "artifact": {
+                        "size": 181008,
+                        "MD5": "03DFB09AABE5C2C8167568CD5C32666B",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
+                        "path": "mods/player-animation-lib-fabric-1.0.2-rc1+1.20.jar"
+                    }
+                },
+                {
+                    "id": "playerex-directors-cut-4.0.5+1.20.1",
+                    "name": "playerex-directors-cut-4.0.5+1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1476337,
+                        "MD5": "B62120D95E7F1CCF6B536C4B0284CB02",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/playerex-directors-cut-4.0.5+1.20.1.jar",
+                        "path": "mods/playerex-directors-cut-4.0.5+1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "ranged_weapon_api-1.1.4+1.20.1",
+                    "name": "ranged_weapon_api-1.1.4+1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 114936,
+                        "MD5": "3A7797F55299D2DE2AA7CE9698264779",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ranged_weapon_api-1.1.4+1.20.1.jar",
+                        "path": "mods/ranged_weapon_api-1.1.4+1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "resourcefulconfig-fabric-1.20.1-2.1.3",
+                    "name": "resourcefulconfig-fabric-1.20.1-2.1.3",
+                    "type": "File",
+                    "artifact": {
+                        "size": 135078,
+                        "MD5": "720878464DC76B75681072F025EAE1AA",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/resourcefulconfig-fabric-1.20.1-2.1.3.jar",
+                        "path": "mods/resourcefulconfig-fabric-1.20.1-2.1.3.jar"
+                    }
+                },
+                {
+                    "id": "resourcefullib-fabric-1.20.1-2.1.29",
+                    "name": "resourcefullib-fabric-1.20.1-2.1.29",
+                    "type": "File",
+                    "artifact": {
+                        "size": 431646,
+                        "MD5": "9D4E1E80304EDC8A672D0173C46C7514",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/resourcefullib-fabric-1.20.1-2.1.29.jar",
+                        "path": "mods/resourcefullib-fabric-1.20.1-2.1.29.jar"
+                    }
+                },
+                {
+                    "id": "rightclickharvest-fabric-4.6.0+1.20.1",
+                    "name": "rightclickharvest-fabric-4.6.0+1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 287385,
+                        "MD5": "27FEB7EE8BAFAF7599036CB92F6A6B80",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/rightclickharvest-fabric-4.6.0+1.20.1.jar",
+                        "path": "mods/rightclickharvest-fabric-4.6.0+1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "simplyswords-fabric-1.56.0-1.20.1",
+                    "name": "simplyswords-fabric-1.56.0-1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 15366470,
+                        "MD5": "307F190B49947ACE559334609EB66634",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/simplyswords-fabric-1.56.0-1.20.1.jar",
+                        "path": "mods/simplyswords-fabric-1.56.0-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "skinlayers3d-fabric-1.10.1-mc1.20.1",
+                    "name": "skinlayers3d-fabric-1.10.1-mc1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1966174,
+                        "MD5": "B354C5CBD6AEFDFCD95EB13E2FA472FC",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/skinlayers3d-fabric-1.10.1-mc1.20.1.jar",
+                        "path": "mods/skinlayers3d-fabric-1.10.1-mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "smarterfarmers-1.20-2.1.2-fabric",
+                    "name": "smarterfarmers-1.20-2.1.2-fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 218266,
+                        "MD5": "99CBF5BC6E81BF12589CE32FDF83A0E9",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/smarterfarmers-1.20-2.1.2-fabric.jar",
+                        "path": "mods/smarterfarmers-1.20-2.1.2-fabric.jar"
+                    }
+                },
+                {
+                    "id": "snow-pig-3.0.1",
+                    "name": "snow-pig-3.0.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 6641872,
+                        "MD5": "CF01359604C8C3ED5F43628A0A8C35CE",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/snow-pig-3.0.1.jar",
+                        "path": "mods/snow-pig-3.0.1.jar"
+                    }
+                },
+                {
+                    "id": "snowrealmagic-1.20.1-fabric-10.6.4",
+                    "name": "SnowRealMagic-1.20.1-Fabric-10.6.4",
+                    "type": "File",
+                    "artifact": {
+                        "size": 195724,
+                        "MD5": "A211F4A5E9F44C3576CBFCB85A91FDFF",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/SnowRealMagic-1.20.1-Fabric-10.6.4.jar",
+                        "path": "mods/SnowRealMagic-1.20.1-Fabric-10.6.4.jar"
+                    }
+                },
+                {
+                    "id": "snowundertrees-2.5.4+1.20.1",
+                    "name": "SnowUnderTrees-2.5.4+1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2332826,
+                        "MD5": "456CF2766ED8D86195D3F52BAEF6994D",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/SnowUnderTrees-2.5.4+1.20.1.jar",
+                        "path": "mods/SnowUnderTrees-2.5.4+1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "sodium-fabric-0.5.13+mc1.20.1",
+                    "name": "sodium-fabric-0.5.13+mc1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 971552,
+                        "MD5": "76E0349865F91F315AAE087A6E88A84A",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/sodium-fabric-0.5.13+mc1.20.1.jar",
+                        "path": "mods/sodium-fabric-0.5.13+mc1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "sound-physics-remastered-fabric-1.20.1-1.5.1",
+                    "name": "sound-physics-remastered-fabric-1.20.1-1.5.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 205569,
+                        "MD5": "CBC6493BC0CBB4C8A813536181610686",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/sound-physics-remastered-fabric-1.20.1-1.5.1.jar",
+                        "path": "mods/sound-physics-remastered-fabric-1.20.1-1.5.1.jar"
+                    }
+                },
+                {
+                    "id": "starlight-1.1.2+fabric.dbc156f",
+                    "name": "starlight-1.1.2+fabric.dbc156f",
+                    "type": "File",
+                    "artifact": {
+                        "size": 127368,
+                        "MD5": "A0B391BF55891502C2074BD078BB5899",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/starlight-1.1.2+fabric.dbc156f.jar",
+                        "path": "mods/starlight-1.1.2+fabric.dbc156f.jar"
+                    }
+                },
+                {
+                    "id": "theimpossibleFile-0.4.4",
+                    "name": "theimpossibleFile-0.4.4",
+                    "type": "File",
+                    "artifact": {
+                        "size": 9365752,
+                        "MD5": "6636D1C507720AAD5DAFE480A07333E2",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/theimpossibleFile-0.4.4.jar",
+                        "path": "mods/theimpossibleFile-0.4.4.jar"
+                    }
+                },
+                {
+                    "id": "travelersbackpack-fabric-1.20.1-9.1.43",
+                    "name": "travelersbackpack-fabric-1.20.1-9.1.43",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1391366,
+                        "MD5": "51EDA0EFB1639FD395D0A345C27358A2",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/travelersbackpack-fabric-1.20.1-9.1.43.jar",
+                        "path": "mods/travelersbackpack-fabric-1.20.1-9.1.43.jar"
+                    }
+                },
+                {
+                    "id": "trinkets-3.7.2",
+                    "name": "trinkets-3.7.2",
+                    "type": "File",
+                    "artifact": {
+                        "size": 238532,
+                        "MD5": "C010CCC2015E5B1F3CB1994694ECC512",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/trinkets-3.7.2.jar",
+                        "path": "mods/trinkets-3.7.2.jar"
+                    }
+                },
+                {
+                    "id": "twilightforest-fabric-1.20.1-1.4.7",
+                    "name": "twilightforest-fabric-1.20.1-1.4.7",
+                    "type": "File",
+                    "artifact": {
+                        "size": 27442159,
+                        "MD5": "8BD7B96364937C35D99AB6D24DCBA56E",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/twilightforest-fabric-1.20.1-1.4.7.jar",
+                        "path": "mods/twilightforest-fabric-1.20.1-1.4.7.jar"
+                    }
+                },
+                {
+                    "id": "vcinteraction-fabric-1.20.1-1.0.6",
+                    "name": "vcinteraction-fabric-1.20.1-1.0.6",
+                    "type": "File",
+                    "artifact": {
+                        "size": 404186,
+                        "MD5": "6649D954C43C2F72219129354DD26CC7",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/vcinteraction-fabric-1.20.1-1.0.6.jar",
+                        "path": "mods/vcinteraction-fabric-1.20.1-1.0.6.jar"
+                    }
+                },
+                {
+                    "id": "visuality-0.7.1+1.20",
+                    "name": "visuality-0.7.1+1.20",
+                    "type": "File",
+                    "artifact": {
+                        "size": 67302,
+                        "MD5": "14AAA65078FCFF3AF29FEF4E1D7D2161",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/visuality-0.7.1+1.20.jar",
+                        "path": "mods/visuality-0.7.1+1.20.jar"
+                    }
+                },
+                {
+                    "id": "voicechat-fabric-1.20.1-2.6.10",
+                    "name": "voicechat-fabric-1.20.1-2.6.10",
+                    "type": "File",
+                    "artifact": {
+                        "size": 5251496,
+                        "MD5": "A2633AA3953861130B4658792164192C",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/voicechat-fabric-1.20.1-2.6.10.jar",
+                        "path": "mods/voicechat-fabric-1.20.1-2.6.10.jar"
+                    }
+                },
+                {
+                    "id": "waystones-fabric-1.20.1-14.1.17",
+                    "name": "waystones-fabric-1.20.1-14.1.17",
+                    "type": "File",
+                    "artifact": {
+                        "size": 520003,
+                        "MD5": "E106EC0F849FB5FEFB1FE5F9A232D450",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/waystones-fabric-1.20.1-14.1.17.jar",
+                        "path": "mods/waystones-fabric-1.20.1-14.1.17.jar"
+                    }
+                },
+                {
+                    "id": "weapons_expanded_1.20.1_1.5.3_fabric",
+                    "name": "weapons_expanded_1.20.1_1.5.3_fabric",
+                    "type": "File",
+                    "artifact": {
+                        "size": 229900,
+                        "MD5": "F603A683BE4AA732B51F7B1C238942C6",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/weapons_expanded_1.20.1_1.5.3_fabric.jar",
+                        "path": "mods/weapons_expanded_1.20.1_1.5.3_fabric.jar"
+                    }
+                },
+                {
+                    "id": "winterly-0.9.3+1.20",
+                    "name": "winterly-0.9.3+1.20",
+                    "type": "File",
+                    "artifact": {
+                        "size": 210134,
+                        "MD5": "04A2F11A911473DA7EA4450234A24473",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/winterly-0.9.3+1.20.jar",
+                        "path": "mods/winterly-0.9.3+1.20.jar"
+                    }
+                },
+                {
+                    "id": "zombie_variants-fabric-1.0.3-1.20.1",
+                    "name": "zombie_variants-fabric-1.0.3-1.20.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 397925,
+                        "MD5": "C47CCF8DC862F4D7F87026C39A94B5B6",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/zombie_variants-fabric-1.0.3-1.20.1.jar",
+                        "path": "mods/zombie_variants-fabric-1.0.3-1.20.1.jar"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
