@@ -746,14 +746,14 @@
                     }
                 },
                 {
-                    "id": "physics-File-3.0.14-mc-1.20.1-fabric",
-                    "name": "physics-File-3.0.14-mc-1.20.1-fabric",
+                    "id": "physics-mod-3.0.14-mc-1.20.1-fabric",
+                    "name": "physics-mod-3.0.14-mc-1.20.1-fabric",
                     "type": "File",
                     "artifact": {
                         "size": 139213994,
                         "MD5": "561B3F4AA4706A73F13C20A25D6CA5E1",
-                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/physics-File-3.0.14-mc-1.20.1-fabric.jar",
-                        "path": "mods/physics-File-3.0.14-mc-1.20.1-fabric.jar"
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/physics-mod-3.0.14-mc-1.20.1-fabric.jar",
+                        "path": "mods/physics-mod-3.0.14-mc-1.20.1-fabric.jar"
                     }
                 },
                 {
