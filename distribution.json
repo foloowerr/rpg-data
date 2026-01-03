@@ -4,8 +4,8 @@
     {
       "id": "elk-rpg",
       "name": "Ełk RPG",
+      "minecraftVersion": "1.20.1",
       "address": "s120.mineserv.eu:12053",
-      "version": "1.20.1",
       "type": "Fabric",
       "modules": [
         {
