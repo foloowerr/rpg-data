@@ -1,4 +1,22 @@
 {
   "version": "1.0.0",
-  "servers": []
+  "rss": "https://twoj-nick.github.io/rpg-data/news.rss",
+  "servers": [
+    {
+      "id": "moj-rpg-server",
+      "name": "RPG - Świat Przygody",
+      "description": "Rozwiąż tajemnicę i przetrwaj!",
+      "icon": "https://foloowerr.github.io/rpg-data/icon.png",
+      "address": "s120.mineserv.eu:12053",
+      "discord": {
+        "shortId": "TwojeDiscordID",
+        "largeImageKey": "logo"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "version": "1.20.1",
+      "type": "Fabric",
+      "modules": []
+    }
+  ]
 }
