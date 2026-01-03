@@ -1,9 +1,9 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "servers": [
         {
-            "id": "elk-rpg",
-            "name": "Ełk RPG",
+            "id": "rpg",
+            "name": "RPG",
             "minecraftVersion": "1.20.1",
             "address": "s120.mineserv.eu:12053",
             "type": "Fabric",
