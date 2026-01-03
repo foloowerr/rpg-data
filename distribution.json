@@ -416,14 +416,14 @@
                     }
                 },
                 {
-                    "id": "ftb-File-fabric-2001.2.12",
-                    "name": "ftb-File-fabric-2001.2.12",
+                    "id": "ftb-library-fabric-2001.2.12",
+                    "name": "ftb-library-fabric-2001.2.12",
                     "type": "File",
                     "artifact": {
                         "size": 769888,
                         "MD5": "DD7CCDBD70AFB3B7960BB5383D09CB3E",
-                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ftb-File-fabric-2001.2.12.jar",
-                        "path": "mods/ftb-File-fabric-2001.2.12.jar"
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/ftb-library-fabric-2001.2.12.jar",
+                        "path": "mods/ftb-library-fabric-2001.2.12.jar"
                     }
                 },
                 {
