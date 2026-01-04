@@ -1,38 +1,38 @@
 {
-  "version": "1.0.10",
-  "servers": [
-    {
-      "id": "rpg",
-      "name": "RPG",
-      "minecraftVersion": "1.20.1",
-      "address": "s120.mineserv.eu:12053",
-      "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
-      "imports": [],
-      "modules": [
+    "version": "1.0.15",
+    "servers": [
         {
-          "id": "net.fabricmc:fabric-loader:0.18.4",
-          "name": "Fabric Loader",
-          "type": "File",
-          "artifact": {
-            "size": 1944518,
-            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fabric-loader-0.18.4.jar",
-            "path": "libraries/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
-          }
-        },
-        {
-          "id": "net.fabricmc:intermediary:1.20.1",
-          "name": "Intermediary",
-          "type": "File",
-          "artifact": {
-            "size": 573365,
-            "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/intermediary-1.20.1.jar",
-            "path": "libraries/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
-          }
-        },
-        {
-          "id": "appleskin-fabric-mc1.20.1-2.5.1",
+            "id": "rpg",
+            "name": "RPG",
+            "minecraftVersion": "1.20.1",
+            "address": "s120.mineserv.eu:12053",
+            "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
+            "imports": [],
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.18.4",
+                    "name": "Fabric Loader",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 1944518,
+                        "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fabric-loader-0.18.4.jar",
+                        "path": "libraries/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+                    }
+                },
+                {
+                    "id": "net.fabricmc:intermediary:1.20.1",
+                    "name": "Intermediary",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 573365,
+                        "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/intermediary-1.20.1.jar",
+                        "path": "libraries/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                    }
+                },
+                {
+                    "id": "appleskin-fabric-mc1.20.1-2.5.1",
                     "name": "appleskin-fabric-mc1.20.1-2.5.1",
                     "type": "File",
                     "artifact": {
