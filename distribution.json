@@ -46,6 +46,17 @@
                         "MD5": "4d1b064fb9713837497a9f8f4a3e7b7e",
                         "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar",
                         "path": "libraries/org/ow2/asm/asm/9.7/asm-9.7.jar"
+                         }
+                },
+                {
+                    "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+                    "name": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 546872,
+                        "MD5": "457348972e60473eb2384c2f68972765",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar",
+                        "path": "libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
                     }
                 },
                 {
