@@ -1,34 +1,117 @@
 {
-    "version": "1.0.15",
+    "version": "1.0.777",
     "servers": [
         {
             "id": "rpg",
             "name": "RPG",
             "minecraftVersion": "1.20.1",
             "address": "s120.mineserv.eu:12053",
+            "type": "Fabric",
             "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
-            "imports": [],
+            "imports": [
+                {
+                    "url": "https://gist.githubusercontent.com/foloowerr/c879993f8c7f59f8f86db1c1791fcf3d/raw/41d735689c2c9595f2482e51e21b7c9ed466adb7/fabric.json",
+                    "type": "Fabric"
+                }
+            ],
             "modules": [
                 {
                     "id": "net.fabricmc:fabric-loader:0.18.4",
-                    "name": "Fabric Loader",
+                    "name": "net.fabricmc:fabric-loader:0.18.4",
                     "type": "Library",
                     "artifact": {
                         "size": 1944518,
                         "MD5": "56c00fa22e0452e8567be1feae73c3b9",
-                        "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fabric-loader-0.18.4.jar",
+                        "url": "https://maven.fabricmc.net/",
                         "path": "libraries/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
                     }
                 },
                 {
                     "id": "net.fabricmc:intermediary:1.20.1",
-                    "name": "Intermediary",
+                    "name": "net.fabricmc:intermediary:1.20.1",
                     "type": "Library",
                     "artifact": {
                         "size": 573365,
                         "MD5": "3f4768ac751cac3418266d1d7aa15f55",
                         "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/intermediary-1.20.1.jar",
                         "path": "libraries/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                         }
+                },
+                {
+                    "id": "org.ow2.asm:asm:9.7",
+                    "name": "ASM Core 9.7",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 126753,
+                        "MD5": "4d1b064fb9713837497a9f8f4a3e7b7e",
+                        "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar",
+                        "path": "libraries/org/ow2/asm/asm/9.7/asm-9.7.jar"
+                    }
+                },
+                {
+                    "id": "org.ow2.asm:asm-commons:9.7",
+                    "name": "ASM Commons 9.7",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 74681,
+                        "MD5": "23d858342db7403362c3e46c7586526e",
+                        "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar",
+                        "path": "libraries/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+                    }
+                },
+                {
+                    "id": "org.ow2.asm:asm-tree:9.7",
+                    "name": "ASM Tree 9.7",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 52504,
+                        "MD5": "39a5c8dfa52f8de3853112a970e0b4c7",
+                        "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar",
+                        "path": "libraries/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+                    }
+                },
+                {
+                    "id": "org.ow2.asm:asm-util:9.7",
+                    "name": "ASM Util 9.7",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 94436,
+                        "MD5": "5a4a9c680249c5b253db93683f2e519c",
+                        "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar",
+                        "path": "libraries/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+                    }
+                },
+                {
+                    "id": "org.ow2.asm:asm-analysis:9.7",
+                    "name": "ASM Analysis 9.7",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 35687,
+                        "MD5": "569d663b65260172e2cf5a61e389b2db",
+                        "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar",
+                        "path": "libraries/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+                    }
+                },
+                {
+                    "id": "net.fabricmc:mapping-io:0.6.1",
+                    "name": "Mapping IO",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 108390,
+                        "MD5": "e85642d99d14a292850d99211b8df7a7",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/mapping-io/0.6.1/mapping-io-0.6.1.jar",
+                        "path": "libraries/net/fabricmc/mapping-io/0.6.1/mapping-io-0.6.1.jar"
+                    }
+                },
+                {
+                    "id": "net.fabricmc:access-widener:2.1.0",
+                    "name": "Access Widener",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 28318,
+                        "MD5": "673f324d4204556a02b1156637b88939b4d8d21c",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar",
+                        "path": "libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
                     }
                 },
                 {
