@@ -16,8 +16,8 @@
           "artifact": {
             "size": 1944518,
             "MD5": "56c00fa22e0452e8567be1feae73c3b9",
-            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fabric-loader-0.16.9.jar",
-            "path": "libraries/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+            "url": "https://github.com/foloowerr/rpg-data/releases/download/v1.0.0/fabric-loader-0.18.4.jar",
+            "path": "libraries/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
           }
         },
         {
