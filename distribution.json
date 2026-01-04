@@ -42,7 +42,7 @@
                     "name": "ASM Core 9.7",
                     "type": "Library",
                     "artifact": {
-                        "size": 126753,
+                        "size": 125428,
                         "MD5": "4d1b064fb9713837497a9f8f4a3e7b7e",
                         "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar",
                         "path": "libraries/org/ow2/asm/asm/9.7/asm-9.7.jar"
@@ -53,7 +53,7 @@
                     "name": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
                     "type": "Library",
                     "artifact": {
-                        "size": 546872,
+                        "size": 1458875,
                         "MD5": "457348972e60473eb2384c2f68972765",
                         "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar",
                         "path": "libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
@@ -64,7 +64,7 @@
                     "name": "Minecraft 1.20.1",
                     "type": "Library",
                     "artifact": {
-                        "size": 46966379,
+                        "size": 23028853,
                         "MD5": "cf21b1af52da4522d480521e11352eb2",
                         "url": "https://piston-data.mojang.com/v1/objects/0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838/client.jar",
                         "path": "versions/1.20.1/1.20.1.jar"
@@ -75,7 +75,7 @@
                     "name": "ASM Commons 9.7",
                     "type": "Library",
                     "artifact": {
-                        "size": 74681,
+                        "size": 73426,
                         "MD5": "23d858342db7403362c3e46c7586526e",
                         "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar",
                         "path": "libraries/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
@@ -86,7 +86,7 @@
                     "name": "ASM Tree 9.7",
                     "type": "Library",
                     "artifact": {
-                        "size": 52504,
+                        "size": 51934,
                         "MD5": "39a5c8dfa52f8de3853112a970e0b4c7",
                         "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar",
                         "path": "libraries/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
@@ -97,7 +97,7 @@
                     "name": "ASM Util 9.7",
                     "type": "Library",
                     "artifact": {
-                        "size": 94436,
+                        "size": 93784,
                         "MD5": "5a4a9c680249c5b253db93683f2e519c",
                         "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar",
                         "path": "libraries/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
@@ -108,7 +108,7 @@
                     "name": "ASM Analysis 9.7",
                     "type": "Library",
                     "artifact": {
-                        "size": 35687,
+                        "size": 34776,
                         "MD5": "569d663b65260172e2cf5a61e389b2db",
                         "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar",
                         "path": "libraries/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
@@ -119,7 +119,7 @@
                     "name": "Mapping IO",
                     "type": "Library",
                     "artifact": {
-                        "size": 108390,
+                        "size": 185830,
                         "MD5": "e85642d99d14a292850d99211b8df7a7",
                         "url": "https://maven.fabricmc.net/net/fabricmc/mapping-io/0.6.1/mapping-io-0.6.1.jar",
                         "path": "libraries/net/fabricmc/mapping-io/0.6.1/mapping-io-0.6.1.jar"
@@ -130,7 +130,7 @@
                     "name": "Access Widener",
                     "type": "Library",
                     "artifact": {
-                        "size": 28318,
+                        "size": 30866,
                         "MD5": "673f324d4204556a02b1156637b88939b4d8d21c",
                         "url": "https://maven.fabricmc.net/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar",
                         "path": "libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
