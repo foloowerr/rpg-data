@@ -12,7 +12,7 @@
         {
           "id": "net.fabricmc:fabric-loader:0.18.4",
           "name": "Fabric Loader",
-          "type": "Library",
+          "type": "File",
           "artifact": {
             "size": 1944518,
             "MD5": "56c00fa22e0452e8567be1feae73c3b9",
@@ -23,7 +23,7 @@
         {
           "id": "net.fabricmc:intermediary:1.20.1",
           "name": "Intermediary",
-          "type": "Library",
+          "type": "File",
           "artifact": {
             "size": 573365,
             "MD5": "3f4768ac751cac3418266d1d7aa15f55",
