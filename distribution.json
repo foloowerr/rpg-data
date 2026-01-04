@@ -57,6 +57,17 @@
                         "MD5": "457348972e60473eb2384c2f68972765",
                         "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar",
                         "path": "libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
+                         }
+                },
+                {
+                    "id": "com.mojang:minecraft:1.20.1",
+                    "name": "Minecraft 1.20.1",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 46966379,
+                        "MD5": "cf21b1af52da4522d480521e11352eb2",
+                        "url": "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/client.jar",
+                        "path": "versions/1.20.1/1.20.1.jar"
                     }
                 },
                 {
